@@ -35,7 +35,7 @@ inputs = [
     gr.Slider(minimum=0, maximum=100, label="Humidity (%)"),
     gr.Slider(minimum=0, maximum=50, label="Wind Speed (km/h)"),
     gr.Slider(minimum=0, maximum=1, label="Year (2011: 0, 2012: 1)", step=1),
-    gr.Slider(minimum=1, maximum=12, label="Month (0=January, 11=December)", step=1),
+    gr.Slider(minimum=0, maximum=11, label="Month (0=January, 11=December)", step=1),
     gr.Dropdown(choices=["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], label="Weekday")
 ]
 
